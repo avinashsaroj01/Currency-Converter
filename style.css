@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding : 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+align-items: center; 
+   min-height: 100vh;
+   background-color: #f4e4ba;
+}
+  p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1rem;
+  }
+.container{
+  
+   background-color: white;
+   padding: 1rem;
+   border-radius: 1rem;
+   min-height: 60vh;
+   min-width: 40vh;
+   
+
+    }
+    form{
+        margin: 3rem 1rem 0 1rem;
+
+    }
+    form select, button,input{
+        width: 100%;
+        border: none;
+        outline: none;
+        border-radius: 0.5rem;
+    }
+    form input{
+        border: 1px solid  lightgray;
+        height: 3rem ;
+        padding-left: 0.5rem  ;
+        font-size: 1.2rem;
+
+    }
+    form button{
+        min-height: 3rem;
+        background-color:#af4d98;
+        font-size: 1.15rem;
+        margin-top: 3rem;
+        color: white;
+        cursor: pointer;
+    }
+    .dropdown{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 1rem; 
+    }
+    .dropdown i{
+        margin: 2rem 1rem 0 1rem;
+          font-size: 1.5rem;
+
+          
+    }
+    .select-container img {
+        max-width: 3rem;
+
+    }
+    .select-container{
+        display: flex;
+        padding-left: 0.5rem;
+        width: 6.8rem;
+         justify-content: center;
+        align-items: center;
+        border-radius: 1rem;
+        border: 1px solid   lightgray;
+
+    }
+    .select-container select{
+        font-size: 1rem;
+    }
+    .message{
+        margin-top: 2rem ;
+        font-size: 1.15rem;
+    }

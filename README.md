@@ -1,5 +1,5 @@
 <h1>Currency Converter</h1>
-<a href="https://instantexchange.netlify.app/">Click here to Check the live site  < /a>
+<a href="https://instantexchange.netlify.app/">Click here to Check the live site  </a>
 
 <h2>Description</h2>
 <p>
